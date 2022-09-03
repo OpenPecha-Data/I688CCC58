@@ -1,33 +1,61 @@
 id: I688CCC58
+legacy_id: P005641
+ocr_import_info:
+  bdrc_scan_id: W2PD17496
+  source: bdrc
+  ocr_info:
+    timestamp: '2020-04-01T02:58:48'
+    imagesfolder: images
+  batch_id: batch001
+  software_id: vision
+  expected_default_language: bo
+  op_import_options: {}
+  op_import_version: 1.0.0
+default_language: bo
 source: https://library.bdrc.io
 source_file: null
 initial_creation_type: ocr
-imported: '2020-04-01T02:59:19+00:00'
-last_modified: '2022-06-08T05:29:47.790095+00:00'
-parser: https://github.com/OpenPecha-dev/openpecha-toolkit/blob/231bba39dd1ba393320de82d4d08a604aabe80fc/openpecha/formatters/google_orc.py
+imported: '2022-09-03T10:19:26.721691+00:00'
+last_modified: 2022-09-03 18:19:34.804960
+parser: https://github.com/OpenPecha/Toolkit/blob/7f57883d84bc10351527a49ee6ce970ace404e50/openpecha/formatters/google_ocr.py
 source_metadata:
-  id: bdr:W2PD17496
-  title: 'གདམས་ངག་མཛོད་ཀྱི་ཙཀླི། '
-  author: ''
+  id: http://purl.bdrc.io/resource/W2PD17496
+  status: http://purl.bdrc.io/admindata/StatusReleased
   access: http://purl.bdrc.io/admindata/AccessOpen
-  restrictedInChina: false
-  base:
-    A445:
-      image_group_id: I4PD1349
-      title: ''
-      total_pages: 253
-      order: 1
-      base_file: A445.txt
-    '8068':
-      image_group_id: I4PD1350
-      title: ''
+  reproduction_of: http://purl.bdrc.io/resource/MW2PD17496
+  copyright_status: http://purl.bdrc.io/resource/CopyrightPublicDomain
+  title: གདམས་ངག་མཛོད་ཀྱི་ཙཀླི།
+statistics:
+  ocr_word_mean_confidence_index: 0.7853820467004057
+  ocr_word_median_confidence_index: 0.9399999976158142
+quality: null
+bases:
+  I4PD1350:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4PD1350
       total_pages: 71
-      order: 2
-      base_file: 8068.txt
-statistics: {}
-quality: {}
+      volume_number: 2
+      volume_pages_bdrc_intro: 2
+    order: 2
+    base_file: I4PD1350.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8600000143051147
+      ocr_word_mean_confidence_index: 0.6672174405442918
+    legacy_id: v002
+  I4PD1349:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4PD1349
+      total_pages: 253
+      volume_number: 1
+      volume_pages_bdrc_intro: 2
+    order: 1
+    base_file: I4PD1349.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9599999785423279
+      ocr_word_mean_confidence_index: 0.8935879797896416
+    legacy_id: v001
 copyright:
-  status: Unknown
-  notice: ''
-  info_url: null
-license: null
+  status: Public domain
+  notice: Public domain
+  info_url: https://creativecommons.org/publicdomain/mark/1.0/
+license: CC0
